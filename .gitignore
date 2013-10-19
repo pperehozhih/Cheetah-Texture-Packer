@@ -7,3 +7,5 @@ tile
 Makefile
 moc_*
 ui_*.h
+build*
+.*

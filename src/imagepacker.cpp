@@ -472,6 +472,7 @@ void ImagePacker::DivideLastImage( int heur, int w, int h, bool wh)
         wh = !wh;
     }
     unsigned areaBuf = AddImgesToBins(heur,w,h);
+    FIX_UNUSED(areaBuf);
     if(missingImages)
     {
         images = last_images;

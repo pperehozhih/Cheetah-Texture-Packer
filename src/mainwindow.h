@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <defines.h>
 #include <QtGlobal>
 
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
@@ -40,6 +41,7 @@ private:
     int recursiveLoaderCounter;
     bool recursiveLoaderDone;
     QPixmap pattern;
+    QMenuBar *macMenuBar;
     void addDir(QString dir);
     struct packerData {
         QListWidgetItem * listItem;

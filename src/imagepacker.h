@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QImage>
+#include <defines.h>
 
 class MaxRects;
 

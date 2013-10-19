@@ -6,7 +6,9 @@
 
 QT       += core gui
 
-TARGET = tile
+TARGET = "Cheetah Texture Packer"
+
+ICON = ../res/icon.icns
 
 QT_VERSION=$$[QT_VERSION]
 
@@ -28,7 +30,8 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     view.h \
     imagepacker.h \
-    maxrects.h
+    maxrects.h \
+    defines.h
 FORMS    += mainwindow.ui
 
 TRANSLATIONS += tile_ru.ts
