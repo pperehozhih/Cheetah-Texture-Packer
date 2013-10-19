@@ -9,3 +9,4 @@ moc_*
 ui_*.h
 build*
 .*
+disk
